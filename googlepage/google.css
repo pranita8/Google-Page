@@ -1,0 +1,133 @@
+#nav{
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+    
+   
+}
+#nav a{
+    margin-right: 25px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+}
+#nav button
+{
+    margin-top: 20px;
+    height: 25px;
+    width: 70px;
+
+} 
+#logo
+{
+    margin-top: 10px;
+    text-align: center;
+    
+} 
+ .searchbox
+ {
+     margin: auto; 
+     position: relative;
+     width: 600px;
+     height: 50px;
+     border: 1px solid rgb(219, 214, 214);
+     padding: 5px 5px;
+     border-radius: 50px;
+
+    }
+ .searchbox:hover
+ {
+     box-shadow: 0 0 10px 2px rgb(219, 216, 216);
+ }
+ .searchs
+ {
+    
+   padding-top: 12px;  
+   padding-bottom:12px;
+   width: 530px;
+   outline: 20px;
+   border: 1px solid white;
+   
+
+ }
+
+ .searchbtn
+ {
+    color: rgb(168, 164, 164); } 
+   
+ .buttons 
+     {
+     margin-top:30px;
+     display: flex;
+     justify-content: center;
+ } 
+ .buttons button:hover
+ {
+     box-shadow: 0 0 1px 1px rgb(155, 153, 153);
+ }
+.buttons button
+{ 
+    background-color:hsla(0, 37%, 97%, 0.884);
+    color:black;
+    outline:1px;
+    border: 2px;
+    width: 150px;
+    cursor: pointer;
+    height: 35px;
+    margin: 15px;
+}
+.lang
+{
+    margin-left: 10px;
+    margin-top: 30px;
+    text-align: center;
+    word-spacing: 5px;
+}
+.lang a{
+text-decoration: none;
+font-size: 14px;
+
+}
+footer
+{
+    color: black;
+    margin-top: 200px;
+    background-color:rgb(245, 241, 241) ;
+}
+html,body{
+    height: 100%;
+    margin: 0px;
+}
+body
+{
+ display: flex;
+ flex-direction: column;
+}
+#middle
+{
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer a
+{
+  color: rgb(78, 78, 78);
+   text-decoration: none;
+   word-spacing: 10px;
+   
+}
+footer a.privacy
+{
+    
+    display: flex;
+    justify-content:flex-end ;
+}
+ .bar 
+{
+    font-size: 17px;
+    display: flex;
+    justify-content: flex-end;
+} 
+
+
